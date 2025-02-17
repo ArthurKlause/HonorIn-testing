@@ -1,0 +1,86 @@
+HonorIn set up guide
+_____________________
+_____________________
+
+GAME SET UP:
+
+1> Download the "HonorIn" folder on the gitHub repository: .
+
+2> Unzip the folder where you like.
+
+3> Check if the "HonorIn.exe" file has been downloaded. 
+If not download it manualy from the repository and ad it to the file
+(your fire wall might prevent you from doing so, allow the download manualy in your firewall setings if needed)  
+
+4> Open the unziped file and double click the "Honor In" .exe file.
+
+The game should launch ! You can lower the resolution to improve performances if you wich.
+
+
+ANDROID CONTROLER SET UP:
+(Android phone requiered)
+
+1> Install the "HonorIn controller" application:
+
+--> Download the "HonorIn controller.apk" file from the gitHub repository on your android device:.  
+
+--> Open it on your android device (This will install the controller dedicated app on your device)
+
+2> Install ADB:
+(Android Debug Bridge (ADB) from the Android SDK Platform-Tools will make it possible for your PC 
+to communicate with the app on you phone to use it as a controller) 
+
+--> Install the Windows release of the "SDK Platform-Tools" folowing: https://developer.android.com/tools/releases/platform-tools?hl=fr.
+
+--> Unzip the downloaded file at the root of your "C:" hardrive  C:\Android\platform-tools
+
+--> Adding C:\Android\platform-tools to System PATH:
+
+-----> Open Environment Variables:
+Press Win + R, type sysdm.cpl, and press Enter.
+Go to the Advanced tab → Click Environment Variables.
+
+-----> Edit System PATH:
+Under System variables, select Path → Click Edit.
+Click New, add:
+C:\Android\platform-tools
+Click "OK" to save.
+
+--> Verify:
+Open Command Prompt (Win + R → cmd → Enter).
+Run the comand:
+adb --version
+If ADB version appears, setup of ADB is complete.
+
+
+--> unable the developer mode on your android device (this will depend on your de)
+Open Settings
+Go to "About Phone"
+Find your "Build Number"
+Tap your "Build Number" 7 times
+You may need to enter your PIN.
+Return to Settings and go to "Developer Options" (usually under System).
+
+
+--> Inable USB debuging:
+Go to Settings → System → Developer Options.
+Scroll down and toggle USB Debugging ON.
+
+--> Connect your phone using a USB cable to your PC:
+Run on your PC in the Command Prompt the command:
+adb devices
+If the list is not empty your are done with seting up the controler.
+(your phone may ask you the permission for the connection) 
+
+Now to control the players rotations in the game you just need to
+connect your phone via USB to your PC, run the "Honor In controller" app
+and launch the game, after a few seconds the connection should be established!
+
+Finaly using a big ruber band, some tape fix your mousse to the back of your phone.
+
+for a more pemanent and convinient setUp,
+Consider finding your self a second mouse (only the buttons need to work)
+Consider gluing this dedicated mouse to a spare phone case.
+
+
+Have fun playing the game and feeling the fourth dimension !
