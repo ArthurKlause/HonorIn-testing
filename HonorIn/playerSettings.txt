@@ -1,0 +1,59 @@
+#PLAYER SETINGS
+
+#default always below
+
+
+rotSensitivityUSBFactor = 1.110000
+#1
+
+#keyborad bellow each is the default glfw key coresponding coeds are esealy found online by searching for "glfw key code"
+moveLeft = 81
+#GLFW_KEY_Q; # A in azerty is Q in qwerty
+moveRight = 65
+#GLFW_KEY_A; # Q in azerty is A in qwerty
+moveSenestre = 87
+#GLFW_KEY_W; #Z on azerty is W on qwerty !
+moveDextre = 83
+#GLFW_KEY_S;
+moveForward = 69
+#GLFW_KEY_E;
+moveBackward = 68
+#GLFW_KEY_D;
+moveUp = 82
+#GLFW_KEY_R;
+moveDown = 70
+#GLFW_KEY_F;
+
+#fov
+fovPlus = 321
+#GLFW_KEY_KP_1;
+fovMinus = 322
+#LFW_KEY_KP_2;
+zoomX2point0 = 334
+#GLFW_KEY_KP_ADD;
+zoomX0point5 = 333
+#GLFW_KEY_KP_SUBTRACT;
+
+#loking dir
+rotateZXPlus = 327
+#GLFW_KEY_KP_7;
+rotateZXMinus = 324
+#GLFW_KEY_KP_4;
+rotateZYPlus = 328
+#GLFW_KEY_KP_8;
+rotateZYMinus = 325
+#GLFW_KEY_KP_5;
+rotateZWPlus = 329
+#GLFW_KEY_KP_9;
+rotateZWMinus = 326
+#GLFW_KEY_KP_6;
+
+#retina
+rotateWXPlus = 79
+#GLFW_KEY_O;
+rotateWXMinus = 76
+#GLFW_KEY_L;
+rotateWYPlus = 73
+#GLFW_KEY_I;
+rotateWYMinus = 75
+#GLFW_KEY_K;
