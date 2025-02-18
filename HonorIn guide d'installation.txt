@@ -1,0 +1,86 @@
+Guide d'installation de HonorIn
+_____________________
+_____________________
+
+INSTALLATION DU JEU :
+
+1> Téléchargez le dossier "HonorIn" depuis le dépôt GitHub : https://github.com/ArthurKlause/HonorIn-testing.
+Cliquez sur le bouton "code" puis sur "Download Zip" dans le menu.
+
+2> Décompressez le dossier où vous le souhaitez.
+
+3> Vérifiez si le fichier "HonorIn.exe" a bien été téléchargé.
+Si ce n'est pas le cas, téléchargez-le manuellement depuis le dépôt et ajoutez-le au dossier
+(votre pare-feu peut vous empêcher de le faire, autorisez le téléchargement manuellement dans les paramètres de votre pare-feu si nécessaire)
+
+4> Ouvrez le dossier décompressé et double-cliquez sur le fichier "HonorIn.exe".
+(Votre pare-feu peut vous avertir à ce moment, généralement la première fois que vous lancez le jeu)
+Le jeu devrait se lancer ! N'hésitez pas à réduire la résolution dans le menu du jeu en appuyant sur "Échap" pour améliorer les performances.
+
+
+CONFIGURATION DU CONTRÔLEUR ANDROID :
+(Téléphone Android requis)
+
+1> Installez l'application "HonorIn controller" :
+
+--> Téléchargez le fichier "HonorIn controller.apk" depuis le dépôt GitHub (https://github.com/ArthurKlause/HonorIn-testing) sur votre appareil Android :
+
+--> Ouvrez-le sur votre appareil Android (Cela installera l'application dédiée au contrôleur sur votre appareil)
+
+2> Installez ADB :
+(Android Debug Bridge (ADB) des SDK Platform-Tools d'Android permettra à votre PC
+de communiquer avec l'application sur votre téléphone pour l'utiliser comme contrôleur)
+
+--> Installez la version Windows de "SDK Platform-Tools" en suivant : https://developer.android.com/tools/releases/platform-tools?hl=fr.
+
+--> Décompressez le fichier téléchargé à la racine de votre disque dur "C:" 
+
+--> Ajoutez C:\Android\platform-tools au chemin d'accès du système :
+
+-----> Ouvrez les Variables d'environnement :
+Appuyez sur Win + R, tapez sysdm.cpl, puis appuyez sur Entrée.
+Allez dans l'onglet Avancé → Cliquez sur Variables d'environnement.
+
+-----> Modifiez le PATH du système :
+Sous Variables système, sélectionnez Path → Cliquez sur Modifier.
+Cliquez sur Nouveau, ajoutez :
+C:\Android\platform-tools
+Cliquez sur "OK" pour enregistrer.
+
+--> Vérifiez :
+Ouvrez l'invite de commandes (Win + R → cmd → Entrée).
+Exécutez la commande :
+adb --version
+Si la version d'ADB apparaît, la configuration de l'ADB est terminée.
+
+
+--> Activez le mode développeur sur votre appareil Android (cela dépend de votre appareil) :
+Ouvrez les Paramètres
+Allez dans "À propos du téléphone"
+Trouvez votre "Numéro de build"
+Appuyez sur "Numéro de build" 7 fois
+Il se peut que vous deviez entrer votre code PIN.
+Retournez dans les Paramètres et allez dans "Options pour les développeurs" (généralement sous Système).
+
+--> Activez le débogage USB :
+Allez dans Paramètres → Système → Options pour les développeurs.
+Faites défiler vers le bas et activez le débogage USB.
+
+--> Connectez votre téléphone à votre PC à l'aide d'un câble USB :
+Exécutez sur votre PC dans l'invite de commande la commande :
+adb devices
+Si la liste n'est pas vide, vous avez terminé la configuration du contrôleur.
+(votre téléphone peut vous demander l'autorisation de la connexion)
+
+Maintenant, pour contrôler les rotations du joueur dans le jeu, vous devez simplement
+connecter votre téléphone via USB à votre PC, lancer l'application "Honor In controller"
+et lancer le jeu, après quelques secondes la connexion devrait être établie !
+
+Enfin, à l'aide d'un gros élastique, ou du scotch, fixez votre souris à l'arrière de votre téléphone.
+
+Pour une configuration plus permanente et pratique,
+envisagez de vous procurer une deuxième souris (seuls les boutons doivent fonctionner)
+Envisagez de coller cette souris dédiée à une coque de téléphone de rechange.
+
+
+Amusez-vous bien à jouer au jeu et à ressentir la quatrième dimension !
