@@ -4,7 +4,8 @@ _____________________
 
 GAME SET UP:
 
-1> Download the "HonorIn" folder on the gitHub repository: .
+1> Download the "HonorIn" folder on the gitHub repository: https://github.com/ArthurKlause/HonorIn-testing.
+clic on the "code" buton and then on "Download Zip" in the menu. 
 
 2> Unzip the folder where you like.
 
@@ -12,9 +13,9 @@ GAME SET UP:
 If not download it manualy from the repository and ad it to the file
 (your fire wall might prevent you from doing so, allow the download manualy in your firewall setings if needed)  
 
-4> Open the unziped file and double click the "Honor In" .exe file.
-
-The game should launch ! You can lower the resolution to improve performances if you wich.
+4> Open the unziped file and double click the "HonorIn.exe" file.
+(Your firewall might talk to you at this point, usually the first time you launch the game)
+The game should launch ! Feel free to lower the resolution in the game menu by pressing "Escape" to improve performances.
 
 
 ANDROID CONTROLER SET UP:
@@ -22,7 +23,7 @@ ANDROID CONTROLER SET UP:
 
 1> Install the "HonorIn controller" application:
 
---> Download the "HonorIn controller.apk" file from the gitHub repository on your android device:.  
+--> Download the "HonorIn controller.apk" file from the gitHub repository (https://github.com/ArthurKlause/HonorIn-testing) on your android device:.  
 
 --> Open it on your android device (This will install the controller dedicated app on your device)
 
@@ -32,7 +33,7 @@ to communicate with the app on you phone to use it as a controller)
 
 --> Install the Windows release of the "SDK Platform-Tools" folowing: https://developer.android.com/tools/releases/platform-tools?hl=fr.
 
---> Unzip the downloaded file at the root of your "C:" hardrive  C:\Android\platform-tools
+--> Unzip the downloaded file at the root of your "C:" hardrive  
 
 --> Adding C:\Android\platform-tools to System PATH:
 
@@ -76,7 +77,7 @@ Now to control the players rotations in the game you just need to
 connect your phone via USB to your PC, run the "Honor In controller" app
 and launch the game, after a few seconds the connection should be established!
 
-Finaly using a big ruber band, some tape fix your mousse to the back of your phone.
+Finaly using a big ruber band, or some tape fix your mousse to the back of your phone.
 
 for a more pemanent and convinient setUp,
 Consider finding your self a second mouse (only the buttons need to work)
