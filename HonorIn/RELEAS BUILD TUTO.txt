@@ -1,0 +1,4 @@
+change exe file name to HonorIn.exe
+
+in shader file delete the uncompiled code
+
